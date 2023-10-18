@@ -55,7 +55,7 @@ const displayData = data => {
       const div = document.createElement('div');
       text = `
         <div class="error">
-            <h3>eisob amader restaurent e nai!</h3>
+            <h3>No dish found!</h3>
         </div>`;
       div.innerHTML = text;
       meal.appendChild(div);
